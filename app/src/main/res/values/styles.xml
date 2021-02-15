@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Day application theme. -->
+    <style name="DayMode" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDay</item>
+        <item name="colorAccent">@color/colorAccentDay</item>
+        <item name="backgroundcolor">@color/backgroundDay</item>
+        <item name="cardbackground">@color/cardBackgroundDay</item>
+        <item name="textcolor">@color/textDay</item>
+        <item name="tintcolor">@color/tintDay</item>
+        <item name="buttoncolor">@color/buttonDay</item>
+        <item name="android:textColor">@color/textDay</item>
+        <item name="android:itemBackground">@color/backgroundDay</item>
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="DarkMode" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="backgroundcolor">@color/backgroundNight</item>
+        <item name="cardbackground">@color/cardBackgroundNight</item>
+        <item name="textcolor">@color/textNight</item>
+        <item name="tintcolor">@color/tintNight</item>
+        <item name="buttoncolor">@color/buttonNight</item>
+        <item name="android:textColor">@color/textNight</item>
+        <item name="android:itemBackground">@color/backgroundNight</item>
+    </style>
+
+    <!-- ActionBar style -->
+    <style name="DayMode.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DayMode.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="DayMode.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="android:textColorPrimary">@color/textNight</item>
+        <item name="android:background">@color/backgroundNight</item>
+    </style>
+</resources>

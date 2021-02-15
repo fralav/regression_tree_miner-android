@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">RTMiner</string>
+
+    <string name="main_title">Scegli come interagire.</string>
+    <string name="main_paragraph">Puoi scoprire i dettagli di quest\'app cliccando su <b>Dettagli</b>
+        nel menu in alto a destra. Inoltre puoi scoprire informazioni sullo sviluppatore. Ricorda di
+        inserire l\'indirizzo IP e la porta con le quali connettersi al server all\'interno delle
+        \'Impostazioni\'. L\'app altrimenti non potrà funzionare!
+    </string>
+    <string name="main_button_db">Carica dal database</string>
+    <string name="main_button_file">Carica da file</string>
+
+    <string name="menu_details">Dettagli</string>
+    <string name="menu_author">Autore</string>
+    <string name="menu_settings">Impostazioni</string>
+
+    <string name="details_title">Dettagli.</string>
+    <string name="details_paragraph">
+        Caso di studio per l\'esame \'<b>Metodi Avanzati di Programmazione</b>\'.<br></br>
+        Quest\'app comunica con un server in grado di costruire una struttura ad albero partendo
+        da esempi descritti come vettori di coppie attributo-valore, per i quali è noto l\'attributo
+        numerico di target. Tramite quest\'app puoi richiedere al server la rappresentazione testuale
+        dell\'albero generato da un training set specifico oppure puoi scoprire il valore di classe
+        per un esempio specifico. <br></br>
+        Può trovare la documentazione all\'interno della cartella principale del progetto.
+    </string>
+
+    <string name="settings_insertIP_title">Indirizzo IP:</string>
+    <string name="settings_insertIP_hint">192.168.1.1</string>
+    <string name="settings_insertPort_title">Porta:</string>
+    <string name="settings_insertPort_hint">8080</string>
+    <string name="settings_switch_title">Attiva o disattiva la night mode.</string>
+
+    <string name="author_title">Autore.</string>
+    <string name="author_paragraph">
+        <b>Nome</b>: Francesco\n
+        <b>Cognome</b>: Lavecchia\n
+        <b>Matricola</b>: 670654
+    </string>
+
+    <string name="table_title_db">Seleziona la tabella.</string>
+    <string name="table_title_file">Seleziona il file.</string>
+    <string name="connection_not_found">ERRORE: Per poter funzionare, l\'app ha bisogno di una connessione a Internet.\nAccendi il Wi-Fi o la rete dati per poter continuare.</string>
+    <string name="table_button_print">Stampa l\'albero</string>
+    <string name="table_button_predict">Predici l\'albero</string>
+
+    <string name="positive_button">"Ok"</string>
+    <string name="negative_button">"Chiudi"</string>
+
+    <string name="settings_ip_wrong">"ERRORE: Inserisci un indirizzo IP valido.</string>
+    <string name="settings_port_wrong">ERRORE: Inserisci una porta valida.</string>
+    <string name="settings_ipAndPort_wrong">ERRORE: Inserisci un indirizzo IP e una porta validi.</string>
+
+    <string name="settings_dialog_title">Impostazioni di connessione</string>
+    <string name="table_paragraph_db">Inserisci il nome della tabella:</string>
+    <string name="table_paragraph_file">Inserisci il nome del file:</string>
+
+    <string name="settings_insertip">ERRORE: Prima di poter procedere, inserisci un indirizzo IP e una porta validi.</string>
+    <string name="server_unreachable_title">Server non raggiungibile</string>
+    <string name="server_unreachable_paragrah">E\' possibile che sia stato inserito un indirizzo IP o una porta errati.</string>
+    <string name="incorrect_data">Dati errati:</string>
+    <string name="ip">"IP: "</string>
+    <string name="port">"Porta: "</string>
+    <string name="results_title">Risultato.</string>
+    <string name="error_title">Errore</string>
+    <string name="error_notables">Non ci sono tabelle all\'interno del database.</string>
+    <string name="error_nofiles">Non ci sono file all\'interno dell\'archivio.</string>
+    <string name="error_dataerror">Si è verificato un errore durante l\'elaborazione del training set.</string>
+    <string name="error_tablenotfound">La tabella specificata non è stata trovata.</string>
+    <string name="error_filenotfound">Il file specificato non è stato trovato.</string>
+    <string name="predict_title">Predizione.</string>
+    <string name="predict_button_go">Ok</string>
+    <string name="prediction_value">"Valore di predizione: "</string>
+    <string name="predict_dialog_title">Valore di predizione</string>
+    <string name="repeat_button">Ripeti</string>
+    <string name="server_lost_connection">Hai perso la connessione con il server, riprova più tardi.</string>
+    <string name="app_name_complete">Regression Tree Client</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">25dp</dimen>
+    <dimen name="margin_land">18dp</dimen>
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="paragraph_size">15sp</dimen>
+    <dimen name="button_width">160dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+</resources>
