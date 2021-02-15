@@ -1,1 +1,1 @@
-# regression_tree_miner-server
+# regression_tree_miner-android
